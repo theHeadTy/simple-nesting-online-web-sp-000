@@ -135,5 +135,6 @@ def adding_to_dennis
      # expect(adding_to_dennis[:dennis_ritchie][:languages][1]).to include("Assembly")
   
   programmer_hash[:dennis_ritchie][:languages] << 'Assembly'
+  programmer_hash
   
 end
