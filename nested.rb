@@ -89,7 +89,7 @@ def adding_matz
         }
      }
 
-  new.merge(programmer_hash)
+  new.merge!(programmer_hash)
     
 end
 
