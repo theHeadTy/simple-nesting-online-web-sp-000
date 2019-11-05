@@ -116,7 +116,7 @@ def changing_alan
 end
 
 def adding_to_dennis
-	programmer_hash = 
+ programmer_hash = 
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -131,5 +131,9 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-
+     
+     # expect(adding_to_dennis[:dennis_ritchie][:languages][1]).to include("Assembly")
+  
+  programmer_hash[:dennis_ritchie][:languages] << 'Assembly'
+  
 end
